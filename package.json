@@ -1,0 +1,10 @@
+{
+    "name"        : "nodechecker-balancer"
+  , "version"     : "0.0.1"
+  , "homepage"    : "http://nodechecker.com"
+  , "description" : "Nodechecker.com node balancer"
+  , "dependencies": {
+      "dnode"              : "*"
+    }
+  , "main"    : "./main.js"
+}
