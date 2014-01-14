@@ -1,4 +1,4 @@
-var Server = require('./lib/server');
+var Dispatcher = require('./lib/dispatcher');
 
-var server = new Server();
-server.run();
+var dispatcher = new Dispatcher(5000);
+dispatcher.start();
